@@ -1,0 +1,78 @@
+.carousel-bg-color{
+    padding: 40px 10px;
+    background-color: #FCEAE8;
+}
+.carousel-section{
+    margin-top: 20px;
+}
+.carousel-section h2{
+    color: #FF136F;
+    margin-bottom: 30px;
+}
+.carousel-section a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#ee548f, #FF136F);
+}
+
+.categories-section .watch-bg{
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(235, 199, 0), rgb(255, 255, 0));
+}
+.categories-section .bag-bg{
+    border-radius: 10px;
+    background-image: linear-gradient(#ee548f, #FF136F);
+}
+.categories-section .shoes-bg{
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(112, 112, 214), blue);
+}
+
+.product-categories{
+    color: white;
+    background-color: #FCEAE8;
+}
+
+#cata-h1{
+    color: black;
+    background-color: #FCEAE8;
+}
+
+
+.shoes-container,
+.backpack-container {
+    background-color: lightgray;
+}
+.backpack-container{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.shoes-section .card,
+.backpack-section .card{
+    box-shadow: 3px 4px 9px gray;
+    border-radius: 20px;
+    border: 0;
+}
+.shoes-section img,
+.backpack-section img{
+    transition: transform 2s;
+}
+.shoes-section .card:hover img,
+.backpack-section .card:hover img{
+    transform:scale(1.1);
+}
+
+.form-area{
+    max-width: 450px;
+    margin: auto;
+}
+
+.footer-container {
+    border-radius: 10px;
+    background-color: #FCEAE8;
+    padding: 100px 0;
+}
